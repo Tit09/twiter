@@ -1,0 +1,26 @@
+.card-hover:hover{
+    transform: scale(1.02);
+    transition: 1s;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+}
+.card-hover:hover::before{
+    content: "J'achete";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    z-index:1;
+    color: #fff;
+    border-radius: 5px;
+}
+.sociaux a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+.sociaux a{
+    color:#fff;
+}
